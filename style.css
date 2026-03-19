@@ -462,7 +462,7 @@ a:hover {
 }
 
 .produit-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-7px);
     box-shadow: var(--shadow-md);
     border-color: var(--primary-color);
 }
