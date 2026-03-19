@@ -355,7 +355,7 @@ a:hover {
 }
 
 .about-card h3 {
-    margin-bottom: 15px;
+    margin-bottom: 0;
     font-size: 22px;
     color: #000000;
 }
