@@ -752,7 +752,7 @@ a:hover {
 .magasin-card h3 {
     font-size: 24px;
     margin-bottom: 0;
-    color: var(--dark-color);
+    color: #000000;
 }
 
 .magasin-card p {
