@@ -511,9 +511,9 @@ a:hover {
 }
 
 .produit-image {
-    height: 300px !important;
-    min-height: 300px;
-    max-height: 300px;
+    height: 250px !important;
+    min-height: 250px;
+    max-height: 2500px;
     overflow: hidden;
     flex-shrink: 0;
 }
