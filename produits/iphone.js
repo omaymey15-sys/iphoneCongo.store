@@ -1,177 +1,21 @@
-// Fichier : produits/iphone.js
-// Données des produits iPhone pour iPhone Congo Store
-
+// Liste des iPhone basée sur l'image 40038.png
 function getProduitsIphone() {
     return [
-        {
-            id: 1,
-            nom: "iPhone 15 Pro Max",
-            prix: 1299,
-            description: "Écran Super Retina XDR 6,7 pouces, puce A17 Pro, appareil photo pro 48 MP, titane.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+15+Pro+Max",
-            specs: {
-                écran: "6,7 pouces Super Retina XDR (120 Hz)",
-                processeur: "A17 Pro (3 nm)",
-                stockage: "256 Go",
-                caméra: "48 MP + téléobjectif x5",
-                batterie: "Jusqu'à 29 h de lecture vidéo"
-            },
-            note: 4.9,
-            avis: 245,
-            en_stock: true
-        },
-        {
-            id: 2,
-            nom: "iPhone 15 Pro",
-            prix: 1099,
-            description: "Écran 6,1 pouces, puce A17 Pro, triple appareil photo, design titane.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+15+Pro",
-            specs: {
-                écran: "6,1 pouces Super Retina XDR (120 Hz)",
-                processeur: "A17 Pro",
-                stockage: "128 Go",
-                caméra: "48 MP + téléobjectif x3",
-                batterie: "Jusqu'à 23 h"
-            },
-            note: 4.8,
-            avis: 189,
-            en_stock: true
-        },
-        {
-            id: 3,
-            nom: "iPhone 15 Plus",
-            prix: 899,
-            description: "Grand écran 6,7 pouces, puce A16, appareil photo 48 MP, excellente autonomie.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+15+Plus",
-            specs: {
-                écran: "6,7 pouces Super Retina XDR",
-                processeur: "A16 Bionic",
-                stockage: "128 Go",
-                caméra: "48 MP + ultra grand-angle",
-                batterie: "Jusqu'à 26 h"
-            },
-            note: 4.7,
-            avis: 112,
-            en_stock: true
-        },
-        {
-            id: 4,
-            nom: "iPhone 15",
-            prix: 799,
-            description: "Écran 6,1 pouces, puce A16, appareil photo 48 MP, Dynamic Island.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+15",
-            specs: {
-                écran: "6,1 pouces Super Retina XDR",
-                processeur: "A16 Bionic",
-                stockage: "128 Go",
-                caméra: "48 MP",
-                batterie: "Jusqu'à 20 h"
-            },
-            note: 4.6,
-            avis: 203,
-            en_stock: true
-        },
-        {
-            id: 5,
-            nom: "iPhone 14 Pro Max",
-            prix: 1099,
-            description: "Écran 6,7 pouces, puce A16, appareil photo 48 MP, toujours l'excellence.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+14+Pro+Max",
-            specs: {
-                écran: "6,7 pouces Super Retina XDR (120 Hz)",
-                processeur: "A16 Bionic",
-                stockage: "256 Go",
-                caméra: "48 MP",
-                batterie: "Jusqu'à 28 h"
-            },
-            note: 4.8,
-            avis: 156,
-            en_stock: false
-        },
-        {
-            id: 6,
-            nom: "iPhone 14 Pro",
-            prix: 999,
-            description: "Écran 6,1 pouces, puce A16, Dynamic Island, appareil photo pro.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+14+Pro",
-            specs: {
-                écran: "6,1 pouces Super Retina XDR (120 Hz)",
-                processeur: "A16 Bionic",
-                stockage: "128 Go",
-                caméra: "48 MP",
-                batterie: "Jusqu'à 23 h"
-            },
-            note: 4.7,
-            avis: 134,
-            en_stock: true
-        },
-        {
-            id: 7,
-            nom: "iPhone 14",
-            prix: 699,
-            description: "Écran 6,1 pouces, puce A15, excellent rapport qualité-prix.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+14",
-            specs: {
-                écran: "6,1 pouces Super Retina XDR",
-                processeur: "A15 Bionic",
-                stockage: "128 Go",
-                caméra: "12 MP",
-                batterie: "Jusqu'à 19 h"
-            },
-            note: 4.5,
-            avis: 98,
-            en_stock: true
-        },
-        {
-            id: 8,
-            nom: "iPhone SE (3e génération)",
-            prix: 429,
-            description: "Compact, puce A15, Touch ID, parfait pour un premier iPhone.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+SE",
-            specs: {
-                écran: "4,7 pouces Retina HD",
-                processeur: "A15 Bionic",
-                stockage: "64 Go",
-                caméra: "12 MP",
-                batterie: "Jusqu'à 15 h"
-            },
-            note: 4.4,
-            avis: 87,
-            en_stock: true
-        },
-        {
-            id: 9,
-            nom: "iPhone 13",
-            prix: 599,
-            description: "Écran 6,1 pouces, puce A15, double appareil photo, toujours performant.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+13",
-            specs: {
-                écran: "6,1 pouces Super Retina XDR",
-                processeur: "A15 Bionic",
-                stockage: "128 Go",
-                caméra: "12 MP (double)",
-                batterie: "Jusqu'à 19 h"
-            },
-            note: 4.6,
-            avis: 211,
-            en_stock: true
-        },
-        {
-            id: 10,
-            nom: "iPhone 13 mini",
-            prix: 499,
-            description: "Le petit format puissant, écran 5,4 pouces, puce A15.",
-            image: "https://via.placeholder.com/300x200?text=iPhone+13+mini",
-            specs: {
-                écran: "5,4 pouces Super Retina XDR",
-                processeur: "A15 Bionic",
-                stockage: "128 Go",
-                caméra: "12 MP",
-                batterie: "Jusqu'à 17 h"
-            },
-            note: 4.5,
-            avis: 76,
-            en_stock: false
-        }
+        { id: 1, nom: "iPhone XR 128GB", prix: 165, description: "Écran Liquid Retina 6,1 pouces, puce A12 Bionic, appareil photo 12 MP.", image: "https://via.placeholder.com/300x200?text=iPhone+XR", specs: { écran: "6,1 pouces Liquid Retina", processeur: "A12 Bionic", stockage: "128 Go", caméra: "12 MP", batterie: "Jusqu'à 16 h" }, note: 4.5, avis: 120, en_stock: true },
+        { id: 2, nom: "iPhone 11 128GB", prix: 195, description: "Écran Liquid Retina 6,1 pouces, puce A13 Bionic, double appareil photo.", image: "https://via.placeholder.com/300x200?text=iPhone+11", specs: { écran: "6,1 pouces Liquid Retina", processeur: "A13 Bionic", stockage: "128 Go", caméra: "12 MP (double)", batterie: "Jusqu'à 17 h" }, note: 4.6, avis: 230, en_stock: true },
+        { id: 3, nom: "iPhone 11 Pro 128GB", prix: 270, description: "Écran Super Retina XDR 5,8 pouces, triple appareil photo, design pro.", image: "https://via.placeholder.com/300x200?text=iPhone+11+Pro", specs: { écran: "5,8 pouces Super Retina XDR", processeur: "A13 Bionic", stockage: "128 Go", caméra: "12 MP (triple)", batterie: "Jusqu'à 18 h" }, note: 4.7, avis: 145, en_stock: true },
+        { id: 4, nom: "iPhone 11 Pro Max 128GB", prix: 300, description: "Grand écran 6,5 pouces, triple appareil photo, autonomie record.", image: "https://via.placeholder.com/300x200?text=iPhone+11+Pro+Max", specs: { écran: "6,5 pouces Super Retina XDR", processeur: "A13 Bionic", stockage: "128 Go", caméra: "12 MP (triple)", batterie: "Jusqu'à 20 h" }, note: 4.8, avis: 110, en_stock: true },
+        { id: 5, nom: "iPhone 12 128GB", prix: 235, description: "Écran Super Retina XDR 6,1 pouces, puce A14, double appareil photo.", image: "https://via.placeholder.com/300x200?text=iPhone+12", specs: { écran: "6,1 pouces Super Retina XDR", processeur: "A14 Bionic", stockage: "128 Go", caméra: "12 MP (double)", batterie: "Jusqu'à 17 h" }, note: 4.6, avis: 310, en_stock: true },
+        { id: 6, nom: "iPhone 12 Pro 128GB", prix: 365, description: "Écran 6,1 pouces, triple appareil photo, scanner LiDAR, acier inoxydable.", image: "https://via.placeholder.com/300x200?text=iPhone+12+Pro", specs: { écran: "6,1 pouces Super Retina XDR", processeur: "A14 Bionic", stockage: "128 Go", caméra: "12 MP (triple + LiDAR)", batterie: "Jusqu'à 17 h" }, note: 4.7, avis: 195, en_stock: true },
+        { id: 7, nom: "iPhone 12 Pro Max 128GB", prix: 385, description: "Écran 6,7 pouces, meilleur appareil photo et autonomie.", image: "https://via.placeholder.com/300x200?text=iPhone+12+Pro+Max", specs: { écran: "6,7 pouces Super Retina XDR", processeur: "A14 Bionic", stockage: "128 Go", caméra: "12 MP (triple + LiDAR)", batterie: "Jusqu'à 20 h" }, note: 4.8, avis: 170, en_stock: true },
+        { id: 8, nom: "iPhone 13 128GB", prix: 350, description: "Écran Super Retina XDR 6,1 pouces, puce A15, double appareil photo amélioré.", image: "https://via.placeholder.com/300x200?text=iPhone+13", specs: { écran: "6,1 pouces Super Retina XDR", processeur: "A15 Bionic", stockage: "128 Go", caméra: "12 MP (double)", batterie: "Jusqu'à 19 h" }, note: 4.7, avis: 420, en_stock: true },
+        { id: 9, nom: "iPhone 13 Pro 128GB", prix: 450, description: "Écran ProMotion 120 Hz, triple appareil photo, autonomie accrue.", image: "https://via.placeholder.com/300x200?text=iPhone+13+Pro", specs: { écran: "6,1 pouces Super Retina XDR 120 Hz", processeur: "A15 Bionic", stockage: "128 Go", caméra: "12 MP (triple)", batterie: "Jusqu'à 22 h" }, note: 4.9, avis: 280, en_stock: true },
+        { id: 10, nom: "iPhone 13 Pro Max 128GB", prix: 540, description: "Le plus grand et le plus endurant, écran 6,7 pouces 120 Hz.", image: "https://via.placeholder.com/300x200?text=iPhone+13+Pro+Max", specs: { écran: "6,7 pouces Super Retina XDR 120 Hz", processeur: "A15 Bionic", stockage: "128 Go", caméra: "12 MP (triple)", batterie: "Jusqu'à 28 h" }, note: 4.9, avis: 310, en_stock: true },
+        { id: 11, nom: "iPhone 14 128GB", prix: 400, description: "Écran 6,1 pouces, puce A15, détection de crash, appareil photo amélioré.", image: "https://via.placeholder.com/300x200?text=iPhone+14", specs: { écran: "6,1 pouces Super Retina XDR", processeur: "A15 Bionic", stockage: "128 Go", caméra: "12 MP", batterie: "Jusqu'à 20 h" }, note: 4.7, avis: 260, en_stock: true },
+        { id: 12, nom: "iPhone 14 Pro 128GB", prix: 500, description: "Dynamic Island, écran toujours activé, puce A16, appareil photo 48 MP.", image: "https://via.placeholder.com/300x200?text=iPhone+14+Pro", specs: { écran: "6,1 pouces Super Retina XDR 120 Hz", processeur: "A16 Bionic", stockage: "128 Go", caméra: "48 MP (triple)", batterie: "Jusqu'à 23 h" }, note: 4.8, avis: 190, en_stock: true },
+        { id: 13, nom: "iPhone 14 Pro Max 128GB", prix: 590, description: "Le meilleur des iPhone 14, écran 6,7 pouces, appareil photo pro.", image: "https://via.placeholder.com/300x200?text=iPhone+14+Pro+Max", specs: { écran: "6,7 pouces Super Retina XDR 120 Hz", processeur: "A16 Bionic", stockage: "128 Go", caméra: "48 MP (triple)", batterie: "Jusqu'à 29 h" }, note: 4.9, avis: 220, en_stock: true },
+        { id: 14, nom: "iPhone 15 Pro 256GB", prix: 650, description: "Titane, puce A17 Pro, USB-C, bouton d'action, appareil photo pro.", image: "https://via.placeholder.com/300x200?text=iPhone+15+Pro", specs: { écran: "6,1 pouces Super Retina XDR 120 Hz", processeur: "A17 Pro", stockage: "256 Go", caméra: "48 MP (triple)", batterie: "Jusqu'à 23 h" }, note: 4.9, avis: 320, en_stock: true },
+        { id: 15, nom: "iPhone 15 Pro Max 256GB", prix: 785, description: "Le summum, zoom x5, titane, écran 6,7 pouces.", image: "https://via.placeholder.com/300x200?text=iPhone+15+Pro+Max", specs: { écran: "6,7 pouces Super Retina XDR 120 Hz", processeur: "A17 Pro", stockage: "256 Go", caméra: "48 MP (triple + zoom x5)", batterie: "Jusqu'à 29 h" }, note: 5.0, avis: 450, en_stock: true },
+        { id: 16, nom: "iPhone 16 Pro Max 256GB", prix: 1030, description: "Dernier-né, performances extrêmes, appareil photo révolutionnaire.", image: "https://via.placeholder.com/300x200?text=iPhone+16+Pro+Max", specs: { écran: "6,9 pouces Super Retina XDR 120 Hz", processeur: "A18 Pro", stockage: "256 Go", caméra: "48 MP (triple)", batterie: "Jusqu'à 30 h" }, note: 5.0, avis: 180, en_stock: true }
     ];
-}
+            }
