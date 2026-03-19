@@ -8,7 +8,7 @@
 :root {
     --primary-color: #2ecc71;
     --secondary-color: #27ae60;
-    --dark-color: #1a1a1a;
+    --dark-color: #000000;
     --light-color: #f0f0f0;
     --text-color: #333;
     --border-color: #ddd;
@@ -361,7 +361,7 @@ a:hover {
 }
 
 .about-card p {
-    color: #000000;
+    color: #666;
     font-size: 14px;
     margin-bottom: 0;
 }
